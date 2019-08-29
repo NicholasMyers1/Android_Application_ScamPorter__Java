@@ -1,0 +1,39 @@
+
+Create the database and the table: 
+
+  CREATE DATABASE ScamPorter;
+
+  CREATE TABLE Scams(
+    
+    ID INT NOT NULL,
+    Title varchar(50) NOT NULL,
+    Medium varchar(25) NOT NULL,
+    Contact varchar(75),
+    Location varchar(75),
+    Description varchar(250) NOT NULL,
+    Information varchar(250),
+    
+    PRIMARY KEY (ID)
+  )
+
+
+Select the last ID in the table: 
+
+  SELECT TOP 1 ID
+    FROM Scams
+   ORDER BY ID DESC;
+
+
+Example of inserting data into the database: 
+
+  INSERT INTO Scams( ID, Title, Medium, Contact, Location, Description, Information )
+  VALUES ( [integerValue], 'Title', 'Medium', 'Contact', 'Location', 'Description', 'Information' );
+
+
+Search the database example: 
+
+  SELECT ID, Title, FROM Scams WHERE Title LIKE '%test%' OR Description LIKE '%test%' OR Medium LIKE '%test%';
+
+Select data from the table based on an ID: 
+
+  SELECT Medium, Location, Contact, Description, Information from Scams where ID = 0;
