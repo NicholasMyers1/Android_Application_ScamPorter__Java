@@ -1,4 +1,6 @@
 I wrote the application for Android using Android Studio, Java, and XML.
 The server is written in Java. I used the Eclipse IDE.
 The database is written in SQL. I used Microsoft SQL Express. 
-Screenshots of the application running, the database, and the server running can be found in this directory.
+Screenshots of the application, the application running, the database, and the server running can be found in this directory.
+
+Please do not use any of these images without my permission.

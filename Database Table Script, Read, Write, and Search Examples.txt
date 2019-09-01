@@ -8,10 +8,10 @@ Create the database and the table:
     ID INT NOT NULL,
     Title varchar(50) NOT NULL,
     Medium varchar(25) NOT NULL,
-    Contact varchar(75),
-    Location varchar(75),
+    Contact varchar(75) NOT NULL,
+    Location varchar(75) NOT NULL,
     Description varchar(250) NOT NULL,
-    Information varchar(250),
+    Information varchar(250) NOT NULL
     
     PRIMARY KEY (ID)
   )
